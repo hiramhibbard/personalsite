@@ -1,0 +1,19 @@
+.container {
+  background-image: url('/images/background.jpg');
+  background-size: cover;
+  background-color: #111;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.logo {
+  margin-top: 15vh;
+}
+
+.backToHome {
+  margin-bottom: 24px;
+}
