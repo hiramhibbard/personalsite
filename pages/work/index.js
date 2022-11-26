@@ -8,7 +8,7 @@ export default function Work() {
       <h1>Work</h1>
       <ul>
         <li><a href="https://www.allure.com/story/color-co-loreal-custom-hair-color-review">L'Oréal Color and Co.</a></li>
-        <p>Award-winning personalized hair coloring app</p>
+        <p>Award-winning personalized hair coloring app. I built this using React, GraphQL and nodejs.</p>
 
         <li>Los Angeles Metro by Red Bull</li>
         <p>An interactive map of the Los Angeles metro, highlighting art centers, historic venues, famous restaurants, etc. Built in React.</p>
