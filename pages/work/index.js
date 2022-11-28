@@ -12,7 +12,7 @@ const work = [
   },
   {
     id: 'la-redbull',
-    title: `Los Angeles Metro by Red Bull`,
+    title: `L.A. Metro by Red Bull`,
     content: <><p>An interactive map of the Los Angeles metro, highlighting art centers, historic venues, famous restaurants, etc. Built in React.</p></>
   },
   {
@@ -105,7 +105,7 @@ export default function Work() {
         key={item.id}
         onClick={() => selectProject(item)}
       >
-        {item.title}
+        <div className={styles.workTitle}>{item.title}</div>
       </li>
     )
   });
