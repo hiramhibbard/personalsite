@@ -1,0 +1,41 @@
+.workList {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.workList li {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 12px;
+  width: 200px;
+  height: 200px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.cc { background-image: url('/images/work/c&c.jpg'); }
+.la-redbull {
+  background-image: url('/images/work/metro.png');
+  background-color: #212328;
+}
+.spike-lee { background-image: url('/images/work/spikelee.png'); }
+.fyp { background-image: url('/images/work/fyp.png'); }
+.olo { background-image: url('/images/work/olo.png'); }
+.coffeebean { background-image: url('/images/work/coffeebean.png'); }
+.boston { background-image: url('/images/work/boston.png'); }
+.chandon { background-image: url('/images/work/chandon.png'); }
+.kc { background-image: url('/images/work/kc.png'); }
+.liquidplumr { background-image: url('/images/work/liquidplumr.png'); }
+.amway { background-image: url('/images/work/amway.png'); }
+.dita { background-image: url('/images/work/dita.png'); }
+.amat { background-image: url('/images/work/amat.png'); }
+.minka { 
+  background-image: url('/images/work/minka.png');
+  background-color: #fff;
+}
+.sd {
+  background-image: url('/images/work/sd.png');
+  background-color: #fff;
+}
