@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import Layout from '../../components/layout';
 import styles from './work.module.css'
+import Modal from '../../components/portal/Modal';
 
 const work = [
   {
@@ -98,6 +99,10 @@ const work = [
 export default function Work() {
   const [project, selectProject] = useState(null);
 
+  const handleTogglePortal = () => {
+    selectProject(null);
+  }
+
   const workList = work.map(item => {
     return (
       <li
@@ -112,11 +117,17 @@ export default function Work() {
 
   return (
     <Layout>
-      <h1>Work</h1>
-      <h2>{project?.title}</h2>
-      <>{project?.content}</>
-
+      <h1>Recent Projects</h1>
       <ul className={styles.workList}>{workList}</ul>
+
+      {project &&
+        <Modal
+          toggleModal={handleTogglePortal}
+        >
+          <h2>{project?.title}</h2>
+          {project?.content}
+        </Modal>
+      }
     </Layout>
   )
 }
